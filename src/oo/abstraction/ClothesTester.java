@@ -3,7 +3,7 @@ package oo.abstraction;
 public class ClothesTester {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		Clothes c1 = new  Clothes();
 
 	}
 

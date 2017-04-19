@@ -6,7 +6,7 @@ public class Student {
 	int chinese;
 	static int pass = 60;
 	
-	//(建立建構子)快速鍵---右鍵 + Sourse + Generate Constructer using fields
+	//(建立建構子)快速鍵---右鍵 + Source + Generate Constructer using fields
 	public Student(int english, int math, int chinese) {
 		super();  
 		this.english = english;

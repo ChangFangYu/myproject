@@ -5,7 +5,7 @@ import java.lang.String;
 import java.util.Scanner;
 
 public class Invoice {
-
+    //發票中獎:末三碼為321,821,886,554即中獎
 	public static void main(String[] args) {
           ArrayList<String> a = new ArrayList<>();
           a.add("321");

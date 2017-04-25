@@ -3,6 +3,7 @@ package oo.mid;
 import java.util.Scanner;
 
 public class Meal {
+//建立一個麥當勞點餐系統過程:包含建構子,屬性,方法		
         int price;
 		String numbers;
 		String snack;

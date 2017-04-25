@@ -3,6 +3,7 @@ package oo.mid;
 import java.util.ArrayList;
 
 public class Ticket {
+//	write setter and getter methods for three fields of class Ticket.
         int id;
 		String name;
 		float price;

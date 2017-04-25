@@ -6,7 +6,7 @@ public class Ticket1 {
 	   String name ;
 	   float price;
 	 
-	   public int get_id()
+	    public int get_id()
 	    {
 	        return id;
 	    }

@@ -7,6 +7,8 @@ public class Ticket {
         int id;
 		String name;
 		float price;
+		
+//快速鍵---右鍵 + Source + Generate setters and getters
 		public void setId(int id){
 			this.id = id;
 		}

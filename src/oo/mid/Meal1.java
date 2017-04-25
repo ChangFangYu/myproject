@@ -5,6 +5,7 @@ public class Meal1 {
 	   String meal_item;
 	   int meal_qty;
 	   int meal_price;
+	   
 	 
 	 
 	  public Meal1(String meal_item, int meal_qty, int meal_price)
@@ -18,5 +19,6 @@ public class Meal1 {
 	  {
 	       return meal_qty * meal_price;
 	  }
-	 
+
+	
 }

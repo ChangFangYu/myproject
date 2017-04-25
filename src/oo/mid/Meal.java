@@ -13,7 +13,7 @@ public class Meal {
 			this.snack = snack;
 		}
 		public void print(){
-			System.out.println("½Ğ¿é¤JÂIÀ\¸¹½X:");
+			System.out.println("è«‹è¼¸å…¥é»é¤è™Ÿç¢¼:");
 		}
 	    public int discount(){
 	    	int dis = (int)(price*0.9f);

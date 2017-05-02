@@ -5,6 +5,9 @@ public class Student {
 	int math;
 	int chinese;
 	static int pass = 60;
+	Student(){
+		//拿掉public的話,只有同一個package可以使用
+	}
 	static {
 		System.out.println("STATIC!!!");
 //		System.out.println(english); why? 因為不在static裡面

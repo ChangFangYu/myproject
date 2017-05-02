@@ -1,5 +1,7 @@
 package oo.stati;
 
+import java.util.ArrayList;
+
 public class Student {
     int english;
 	int math;
@@ -25,7 +27,7 @@ public class Student {
 	public void print(){
 	   System.out.println(getScore(english)+"\t"+getScore(math)+"\t"+getScore(chinese));
 	}
-	private String getScore(int score){
+	protected String getScore(int score){
 		if (score < pass){
 			return String.valueOf(score)+"*";  //.valueOf(score)---整數變成字串
 		}else{

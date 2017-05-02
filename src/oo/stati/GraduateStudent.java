@@ -8,5 +8,9 @@ public class GraduateStudent extends Student {
     	this.math = math;
     	this.chinese = chinese;
     }
+    @Override  //防止複寫錯誤
+    public void print(){
+ 	   System.out.println(getScore(english)+"\t"+getScore(math)+"\t"+getScore(chinese)+"\t"+getScore(thesis));
+ 	}
     
 }

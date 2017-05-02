@@ -10,7 +10,7 @@ public class Tester {
 	    stu1.print();
 		stu2.print();
 		GraduateStudent gstu1 = new GraduateStudent(65,85,99);
-		gstu.print();
+		gstu1.print();
 		
 		
 	}

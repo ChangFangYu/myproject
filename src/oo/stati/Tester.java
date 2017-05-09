@@ -2,7 +2,7 @@ package oo.stati;
 
 import java.util.ArrayList;
 
-public class Tester {
+public class Tester extends Object{
 
 	public static void main(String[] args) {
 		System.out.println("Student.pass");

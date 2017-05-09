@@ -35,4 +35,11 @@ public class Student {
 		}
 		
 	}
+	@Override
+	public String toString(){
+		return
+				"eng:" + english + "\n"+
+				"chinese:" + chinese + "\n"+
+				"math:"+ math + "\n";
+	}
 }

@@ -1,17 +1,10 @@
 package oo.shopping;
 
 public class Customer {
-	int Customer;
-	int SilverCustomer;
-	int GoldenCustomer;
-	public Customer(int customer, int silverCustomer, int goldenCustomer) {
-		super();
-		Customer = customer;
-		SilverCustomer = silverCustomer;
-		GoldenCustomer = goldenCustomer;
-	}
+    int amount;
 	
-	
-	
+    public void get_Payamount(){
+        System.out.println("此次應付款金額為: "+ amount);
+    }
 
 }

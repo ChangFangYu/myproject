@@ -2,21 +2,11 @@ package oo.shopping;
 
 public class SilverCustomer extends Customer{
 
-	public SilverCustomer(int customer, int silverCustomer, int goldenCustomer) {
-		super(customer, silverCustomer, goldenCustomer);
-		
-	}
-	public void print(){
-		System.out.println();
-		System.out.println("1.一般客戶, 2.銀級客戶, 3.金級客戶");
-		System.out.println("輸入消費金額:");
-		System.out.println("折扣後:");
-		System.out.println("還元金:");
-		System.out.println("count*0.9");
-		
-	}
+	float discount;
 	
-
-	
-
+	public void get_discount(){
+	   discount=(float) (0.1*amount);
+	   System.out.println("此次折扣金額為: "+ discount);
+	   System.out.println("此次應付款金額為: "+ (amount-discount));
+	}
 }

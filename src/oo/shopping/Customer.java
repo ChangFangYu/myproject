@@ -7,4 +7,6 @@ public class Customer {
         System.out.println("此次應付款金額為: "+ amount);
     }
 
+   
+
 }

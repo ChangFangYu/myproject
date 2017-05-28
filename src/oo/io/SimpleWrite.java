@@ -10,8 +10,8 @@ public class SimpleWrite {
 		try{
 			FileOutputStream fos = new FileOutputStream("data.txt");  //檔案出現在 myproject底下
 			fos.write(66);   //ASCII碼-B
-			fos.flush();
-			fos.close();     //可寫可不寫
+			fos.flush();     //可寫可不寫 
+			fos.close();    
 		}catch(FileNotFoundException e){
 			e.printStackTrace();   //未來在寫錯誤訊息
 		}
